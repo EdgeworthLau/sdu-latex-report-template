@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+这是一个插入了行间公式的示例段落，
+\PYG{l+s+sb}{\PYGZdl{}\PYGZdl{}}
+\PYG{n+nb}{    }\PYG{n+nv}{\PYGZbs{}int}\PYG{n+nb}{\PYGZus{}\PYGZob{}}\PYG{l+m}{0}\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{} x\PYGZca{}}\PYG{l+m}{2}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}d\PYGZcb{} x }\PYG{o}{=}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{l+m}{3}\PYG{n+nb}{\PYGZcb{}}
+\PYG{l+s}{\PYGZdl{}\PYGZdl{}}
+\PYG{l+s+sb}{\PYGZbs{}[}
+\PYG{n+nb}{    }\PYG{n+nv}{\PYGZbs{}int}\PYG{n+nb}{\PYGZus{}\PYGZob{}}\PYG{l+m}{0}\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{} x\PYGZca{}}\PYG{l+m}{2}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}d\PYGZcb{} x }\PYG{o}{=}\PYG{n+nb}{ }\PYG{n+nv}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}\PYG{l+m}{1}\PYG{n+nb}{\PYGZcb{}\PYGZob{}}\PYG{l+m}{3}\PYG{n+nb}{\PYGZcb{}}
+\PYG{l+s}{\PYGZbs{}]}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}int}\PYG{n+nb}{\PYGZus{}\PYGZob{}}0\PYG{n+nb}{\PYGZcb{}\PYGZca{}\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}} x\PYG{n+nb}{\PYGZca{}}2 \PYG{k}{\PYGZbs{}mathrm}\PYG{n+nb}{\PYGZob{}}d\PYG{n+nb}{\PYGZcb{}} x = \PYG{k}{\PYGZbs{}frac}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}\PYGZob{}}3\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}equation\PYG{n+nb}{\PYGZcb{}}
+在这个段落中，以三种不同的方式插入了相同的公式。
+\end{Verbatim}

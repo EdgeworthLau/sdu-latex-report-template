@@ -1,0 +1,20 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[htbp]
+    \PYG{k}{\PYGZbs{}centering}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}usetikzlibrary}\PYG{n+nb}{\PYGZob{}}positioning\PYG{n+nb}{\PYGZcb{}}
+
+        \PYG{k}{\PYGZbs{}node} (A) \PYG{n+nb}{\PYGZob{}}A\PYG{n+nb}{\PYGZcb{}};
+        \PYG{k}{\PYGZbs{}node} (B) [right=of A] \PYG{n+nb}{\PYGZob{}}B\PYG{n+nb}{\PYGZcb{}};
+        \PYG{k}{\PYGZbs{}node} (C) [below=of A] \PYG{n+nb}{\PYGZob{}}C\PYG{n+nb}{\PYGZcb{}};
+        \PYG{k}{\PYGZbs{}node} (D) [below=of B] \PYG{n+nb}{\PYGZob{}}D\PYG{n+nb}{\PYGZcb{}};
+
+        \PYG{k}{\PYGZbs{}draw} (A) \PYGZhy{}\PYGZhy{} (B);
+        \PYG{k}{\PYGZbs{}draw} (A) \PYGZhy{}\PYGZhy{} (C);
+        \PYG{k}{\PYGZbs{}draw} (B) \PYGZhy{}\PYGZhy{} (D);
+        \PYG{k}{\PYGZbs{}draw} (C) \PYGZhy{}\PYGZhy{} (D);
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}拓扑图\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:topology\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}definecolor}\PYG{n+nb}{\PYGZob{}}mycolor\PYG{n+nb}{\PYGZcb{}\PYGZob{}}rgb\PYG{n+nb}{\PYGZcb{}\PYGZob{}}12,125,200\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}textcolor}\PYG{n+nb}{\PYGZob{}}mycolor\PYG{n+nb}{\PYGZcb{}\PYGZob{}}这段文字的颜色为自定义颜色。\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

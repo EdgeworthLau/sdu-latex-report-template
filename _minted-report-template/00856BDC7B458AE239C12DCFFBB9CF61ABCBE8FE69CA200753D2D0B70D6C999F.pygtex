@@ -1,0 +1,13 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}} \PYG{c}{\PYGZpc{} 指定分栏数为2}
+    这是左栏
+
+    hello world
+
+    \PYG{k}{\PYGZbs{}columnbreak} \PYG{c}{\PYGZpc{} 手动切换至下一栏}
+
+    这是右栏
+
+    你好世界
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}multicols\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

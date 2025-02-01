@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c}{\PYGZpc{} 插入行间代码}
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}minted\PYG{n+nb}{\PYGZcb{}\PYGZob{}}python\PYG{n+nb}{\PYGZcb{}}
+def extended\PYG{n+nb}{\PYGZus{}}gcd(a, b):
+    if b == 0:
+        return (a, 1, 0)
+    else:
+        d, x, y = extended\PYG{n+nb}{\PYGZus{}}gcd(b, a \PYG{c}{\PYGZpc{} b)}
+        return (d, y, x \PYGZhy{} (a // b) * y)
+
+def mod\PYG{n+nb}{\PYGZus{}}inverse(a, m):
+    d, x, y = extended\PYG{n+nb}{\PYGZus{}}gcd(a, m)
+    if d != 1:
+        raise ValueError(\PYGZdq{}Modular inverse does not exist\PYGZdq{})
+    else:
+        return x \PYG{c}{\PYGZpc{} m}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}minted\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{c}{\PYGZpc{} 插入外部代码文件}
+\PYG{k}{\PYGZbs{}inputminted}\PYG{n+nb}{\PYGZob{}}python\PYG{n+nb}{\PYGZcb{}\PYGZob{}}codes/example.py\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

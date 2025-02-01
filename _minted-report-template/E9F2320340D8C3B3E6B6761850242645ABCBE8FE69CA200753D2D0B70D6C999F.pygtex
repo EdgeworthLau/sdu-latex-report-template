@@ -1,0 +1,21 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[htbp]
+    \PYG{k}{\PYGZbs{}centering}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}[sibling distance=10em,
+        every node/.style = \PYG{n+nb}{\PYGZob{}}shape=rectangle,
+            rounded corners, draw, align=center,
+            top color=white, bottom color=blue!20\PYG{n+nb}{\PYGZcb{}}]
+        \PYG{k}{\PYGZbs{}node} \PYG{n+nb}{\PYGZob{}}Root\PYG{n+nb}{\PYGZcb{}}
+        child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Child 1\PYG{n+nb}{\PYGZcb{}}
+            child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Grandchild 1\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZcb{}}
+            child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Grandchild 2\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZcb{}}
+        \PYG{n+nb}{\PYGZcb{}}
+        child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Child 2\PYG{n+nb}{\PYGZcb{}}
+            child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Grandchild 3\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZcb{}}
+            child \PYG{n+nb}{\PYGZob{}} node \PYG{n+nb}{\PYGZob{}}Grandchild 4\PYG{n+nb}{\PYGZcb{}} \PYG{n+nb}{\PYGZcb{}}
+        \PYG{n+nb}{\PYGZcb{}};
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tikzpicture\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}树图\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:tree\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

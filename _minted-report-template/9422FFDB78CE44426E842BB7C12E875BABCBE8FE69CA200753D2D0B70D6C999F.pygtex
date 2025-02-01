@@ -1,0 +1,3 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+这是一个插入了内部参考文献的示例段落，其中包含了对图\PYG{k}{\PYGZbs{}ref}\PYG{n+nb}{\PYGZob{}}fig:1\PYG{n+nb}{\PYGZcb{}}和\PYG{k}{\PYGZbs{}cref}\PYG{n+nb}{\PYGZob{}}lst:7\PYG{n+nb}{\PYGZcb{}}的引用。
+\end{Verbatim}

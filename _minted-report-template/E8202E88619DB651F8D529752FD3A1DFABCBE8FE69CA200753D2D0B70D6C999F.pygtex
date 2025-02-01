@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}[htbp]
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}includegraphics}\PYG{n+na}{[width=0.8\PYGZbs{}textwidth]}\PYG{n+nb}{\PYGZob{}}imgs/plots.pdf\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}caption}\PYG{n+nb}{\PYGZob{}}F分布\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}fig:F\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}figure\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

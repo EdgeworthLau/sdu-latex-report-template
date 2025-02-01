@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}\PYGZob{}}99\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}} 参考文献1
+    \PYG{k}{\PYGZbs{}bibitem}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}} 参考文献2
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}thebibliography\PYG{n+nb}{\PYGZcb{}}
+
+这是一个插入了外部参考文献的示例段落，其中包含了对参考文献1\PYG{k}{\PYGZbs{}cite}\PYG{n+nb}{\PYGZob{}}1\PYG{n+nb}{\PYGZcb{}}和参考文献2\PYG{k}{\PYGZbs{}cite}\PYG{n+nb}{\PYGZob{}}2\PYG{n+nb}{\PYGZcb{}}的引用。
+\end{Verbatim}

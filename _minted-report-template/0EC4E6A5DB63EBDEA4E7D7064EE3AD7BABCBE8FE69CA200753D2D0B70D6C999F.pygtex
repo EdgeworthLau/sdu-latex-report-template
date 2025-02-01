@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+这是段落一，该段未作任何设置。
+
+\PYG{k}{\PYGZbs{}noindent} 这是段落二，该段取消了首行缩进。
+
+\PYG{k}{\PYGZbs{}vspace}\PYG{n+nb}{\PYGZob{}}0.5cm\PYG{n+nb}{\PYGZcb{}}
+
+这是段落三，该段与前一段之间添加了空行。
+\end{Verbatim}

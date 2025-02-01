@@ -1,0 +1,32 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}captionof}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}\PYGZob{}}表格示例1\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:tab1\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}|c|c|c|\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}hline}
+        A \PYG{n+nb}{\PYGZam{}} B \PYG{n+nb}{\PYGZam{}} C \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+        1 \PYG{n+nb}{\PYGZam{}} 2 \PYG{n+nb}{\PYGZam{}} 3 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+        4 \PYG{n+nb}{\PYGZam{}} 5 \PYG{n+nb}{\PYGZam{}} 6 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+        7 \PYG{n+nb}{\PYGZam{}} 8 \PYG{n+nb}{\PYGZam{}} 9 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+
+\PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}captionof}\PYG{n+nb}{\PYGZob{}}table\PYG{n+nb}{\PYGZcb{}\PYGZob{}}表格示例2\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}label}\PYG{n+nb}{\PYGZob{}}tab:2\PYG{n+nb}{\PYGZcb{}}
+    \PYG{k}{\PYGZbs{}begin}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}\PYGZob{}}r||l c|\PYG{n+nb}{\PYGZcb{}}
+        \PYG{k}{\PYGZbs{}hline}
+        AA \PYG{n+nb}{\PYGZam{}} BB \PYG{n+nb}{\PYGZam{}} C \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+        1 \PYG{n+nb}{\PYGZam{}} 2 \PYG{n+nb}{\PYGZam{}} 3 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        4 \PYG{n+nb}{\PYGZam{}} 5 \PYG{n+nb}{\PYGZam{}} 6 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+        \PYG{k}{\PYGZbs{}hline}
+        \PYG{k}{\PYGZbs{}hline}
+        7 \PYG{n+nb}{\PYGZam{}} 8 \PYG{n+nb}{\PYGZam{}} 9 \PYG{k}{\PYGZbs{}\PYGZbs{}}
+    \PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}tabular\PYG{n+nb}{\PYGZcb{}}
+\PYG{k}{\PYGZbs{}end}\PYG{n+nb}{\PYGZob{}}center\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

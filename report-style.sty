@@ -1,0 +1,48 @@
+\usepackage{authblk}    % 处理作者信息
+\usepackage{caption}    % 生成标题
+\usepackage{booktabs}   % 生成表格
+\usepackage{hyperref}   % 插入超链接
+\usepackage{cite}       % 管理参考文献引用
+\usepackage[UTF8]{ctex} % 提供中文支持
+\usepackage{graphicx}   % 插入图片
+\usepackage{minted}     % 插入代码
+\usepackage{xcolor}     % 设置自定义颜色
+\usepackage{abstract}   % 设置摘要
+\usepackage{sectsty}    % 设置章节标题
+\usepackage{multicol}   % 提供多栏排版支持
+\usepackage{amsmath}    % 插入数学公式
+\usepackage{siunitx}    % 插入单位
+\usepackage{tikz}       % 绘制图表
+\usepackage{subcaption} % 插入子图表标题
+\usepackage{float}      % 设置图片位置
+\usepackage{cleveref}   % 重定义引用
+
+
+
+% 页面样式设置
+\pagestyle{plain}
+
+% 超链接设置
+\hypersetup{
+    hidelinks,
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=cyan,
+}
+
+% 代码高亮设置
+\setminted{
+    linenos,
+    breaklines,
+	frame=single,
+	tabsize=4,
+	encoding=utf8,
+}
+
+% 标题与引用前缀设置
+\renewcommand{\listingscaption}{代码}
+\crefname{listing}{代码}{代码}
+\crefname{figure}{图}{图}
+\crefname{table}{表}{表}
