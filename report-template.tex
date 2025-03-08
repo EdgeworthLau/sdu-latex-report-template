@@ -1001,6 +1001,27 @@ $$
 \hrule
 \vspace{0.25cm}
 
+\subsection{页边距}
+
+使用 \mintinline{bash}{geometry} 宏包可以自定义页边距。
+
+使用 \mintinline{latex}{\geometry{left=...,right=...,top=...,bottom=...}} 命令可以设置页边距，其中 \mintinline{latex}{left}、\mintinline{latex}{right}、\mintinline{latex}{top}、\mintinline{latex}{bottom} 可以分别设置上、下、左、右的页边距。
+
+下面以\cref{lst:23} 中的代码为例，展示自定义页边距示例代码，本模板也设置为下面的样式。
+
+\begin{center}
+    \captionof{listing}{自定义页边距示例代码}
+    \label{lst:23}
+    \begin{minted}{latex}
+\geometry{
+    left=3.17cm,
+    right=3.17cm,
+    top=2.54cm,
+    left=2.54cm
+}
+    \end{minted}
+\end{center}
+
 \subsection{代码高亮}
 
 本模板使用 \mintinline{bash}{minted} 宏包实现代码高亮。
@@ -1013,11 +1034,11 @@ $$
 
 更多选项可以查看 \href{https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/minted/minted.pdf}{\mintinline{bash}{minted} 宏包的官方文档}
 
-下面以\cref{lst:23} 中的代码为例，展示 \mintinline{bash}{minted} 宏包选项的设置方法，本模板也设置为下面的样式。
+下面以\cref{lst:24} 中的代码为例，展示 \mintinline{bash}{minted} 宏包选项的设置方法，本模板也设置为下面的样式。
 
 \begin{center}
     \captionof{listing}{\mintinline{bash}{minted} 宏包选项示例代码}
-    \label{lst:23}
+    \label{lst:24}
     \begin{minted}{latex}
 \setminted{
     linenos,
@@ -1033,11 +1054,11 @@ $$
 
 使用 \mintinline{latex}{\hypersetup{...}} 命令可以对超链接样式做个性化设置。其中，\mintinline{latex}{...} 为设置项列表。常用设置项有：\mintinline{latex}{colorlinks}（设置链接颜色）、\mintinline{latex}{linkcolor}（设置内部链接颜色）、\mintinline{latex}{citecolor}（设置引用链接颜色）、\mintinline{latex}{urlcolor}（设置URL链接颜色）。更多设置项可以查看 \href{https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/hyperref/doc/hyperref-doc.pdf}{\mintinline{bash}{hyperref} 宏包的官方文档}。
 
-下面以\cref{lst:24} 中的代码为例，展示超链接样式设置的示例代码，本模板也设置为下面的样式。
+下面以\cref{lst:25} 中的代码为例，展示超链接样式设置的示例代码，本模板也设置为下面的样式。
 
 \begin{center}
     \captionof{listing}{超链接样式设置示例代码}
-    \label{lst:24}
+    \label{lst:25}
     \begin{minted}{latex}
 \hypersetup{
     hidelinks,
@@ -1069,6 +1090,7 @@ $$
         ctex & 提供中文支持 \\
         fontspec & 设置字体 \\
         graphicx & 图片插入 \\
+        geometry & 设置页边距 \\
         hyperref & 超链接 \\
         minted & 插入代码 \\
         multicol & 提供多栏排版支持 \\

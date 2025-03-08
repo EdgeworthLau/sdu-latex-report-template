@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}geometry}\PYG{n+nb}{\PYGZob{}}
+    left=3.17cm,
+    right=3.17cm,
+    top=2.54cm,
+    left=2.54cm
+\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

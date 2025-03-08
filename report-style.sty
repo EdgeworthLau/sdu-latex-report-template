@@ -5,6 +5,7 @@
 \usepackage{cite}       % 管理参考文献引用
 \usepackage[UTF8]{ctex} % 提供中文支持
 \usepackage{graphicx}   % 插入图片
+\usepackage{geometry}   % 设置页边距
 \usepackage{minted}     % 插入代码
 \usepackage{xcolor}     % 设置自定义颜色
 \usepackage{abstract}   % 设置摘要
@@ -20,7 +21,12 @@
 
 
 % 页面样式设置
-\pagestyle{plain}
+\geometry{
+    left=3.17cm,
+    right=3.17cm,
+    top=2.54cm,
+    left=2.54cm
+}
 
 % 超链接设置
 \hypersetup{

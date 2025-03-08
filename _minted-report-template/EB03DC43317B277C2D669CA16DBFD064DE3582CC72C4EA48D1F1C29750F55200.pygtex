@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}hypersetup}\PYG{n+nb}{\PYGZob{}}
+    hidelinks,
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=cyan,
+\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}

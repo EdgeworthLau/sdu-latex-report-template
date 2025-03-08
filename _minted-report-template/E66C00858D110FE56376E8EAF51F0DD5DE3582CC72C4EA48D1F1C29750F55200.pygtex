@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{\PYGZbs{}setminted}\PYG{n+nb}{\PYGZob{}}
+    linenos,
+    breaklines,
+	frame=single,
+	tabsize=4,
+	encoding=utf8,
+\PYG{n+nb}{\PYGZcb{}}
+\end{Verbatim}
